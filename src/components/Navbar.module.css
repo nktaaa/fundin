@@ -1,0 +1,27 @@
+.NavContainer{
+    height: 5rem;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+  
+    
+}
+.Title{
+    margin-left: 0.5rem;
+}
+.LoginBox{
+    display: flex;
+   gap: 1rem;
+}
+.loginbtn,.sgnbtn{
+   padding: 0.5rem;
+   font-size: 1rem;
+}
+.user{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
