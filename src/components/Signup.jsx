@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../components/Signup.module.css";
-function Loginpage() {
+function Signuppage() {
   return (
     <>
     <div className={`${styles.formcontainer}`}>
@@ -27,4 +27,4 @@ function Loginpage() {
   )
 }
 
-export default Loginpage
+export {Signuppage};
