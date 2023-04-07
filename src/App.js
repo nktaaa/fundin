@@ -1,11 +1,8 @@
 import './App.css';
-import {Login} from './components/Login.jsx';
-import {Main} from './components/Main.jsx';
-
+import { Main } from './components/Main';
 function App() {
   return (
    <>
-   {/* <Login/> */}
    <Main/>
    </>
   );
