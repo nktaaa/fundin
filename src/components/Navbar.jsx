@@ -5,7 +5,7 @@ function Navbar() {
     <>
        <div className={`${styles.NavContainer}`}>
         <div className={`${styles.Title}`}>
-        <h2>Fund In beta</h2>
+        <h2>FundIn <small>beta</small></h2>
         </div>
         <div className={`${styles.LoginBox}`}>
           <div>
@@ -15,12 +15,10 @@ function Navbar() {
           <button className={`${styles.sgnbtn}`}>Sign Up</button>
           </div>
           <div className={`${styles.user}`}>
-          <i class="fa-solid fa-user"></i>
+          <i className="fa-solid fa-user"></i>
           </div>
         </div>
-           
-
-       </div>
+     </div>
     </>
   )
 }
