@@ -1,16 +1,14 @@
 import './App.css';
-import {Navbar} from './components/Navbar';
-import {Login} from '../components/Login.jsx';
 import {Signuppage} from './components/Signup';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { LoginPage } from './pages/LoginPage';
 function App() {
   return (
     <div className="App">
-      <>
-      <Navbar/>
-      <Login/>
-      <Signuppage/>
-      </>
-    
+      <Router>
+        <LoginPage/>
+        <Signuppage/>
+      </Router>
     </div>
   );
 }
