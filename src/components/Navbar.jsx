@@ -18,7 +18,7 @@ function Navbar() {
           <i className="fa-solid fa-user"></i>
           </div>
         </div>
-       </div>
+     </div>
     </>
   )
 }
