@@ -1,4 +1,5 @@
-import './App.css';
+import { Main } from './pages/Main';
+import {Company} from './pages/Company'
 import { BrowserRouter as Router } from 'react-router-dom';
 import { LoginPage } from './pages/LoginPage';
 import { SignupPage } from './pages/SignupPage';
@@ -8,6 +9,8 @@ function App() {
       <Router>
         <LoginPage/>
         <SignupPage/>
+        <Main/>
+        <Company/>
       </Router>
     </div>
   );

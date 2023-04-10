@@ -1,0 +1,58 @@
+.container{
+    display:flex;
+    gap :1rem;
+}
+.companycontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: fit-content;
+    
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    gap :2rem;
+    
+}
+.sidebar{
+    height:fit-content;
+    background-color: bisque;
+   max-width: 15rem;
+    text-align: center;
+}
+.filter{
+    margin-top: 0;
+    padding-top: 2rem;
+}
+.sidebtn{
+    margin-top: 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 1.5rem;
+  width:10rem;
+   margin:2rem;
+}
+.logo{
+    font-size: 2rem;
+    display: flex;
+    gap:1.5rem;
+}
+.companyname{
+    margin-left:5rem;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:460px) {
+    .logo{
+        font-size: 1.5rem;
+    }
+    .sidebtn{
+        font-size: 0.75rem;
+        border-radius: 0.5rem;
+        width:5rem;
+    }
+    .sidebar{
+        max-width: 10rem;
+    }
+}
+
