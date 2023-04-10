@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../components/Signup.module.css";
-function Signuppage() {
+function Signup() {
   return (
     <>
     <div className={`${styles.formcontainer}`}>
@@ -27,4 +27,4 @@ function Signuppage() {
   )
 }
 
-export {Signuppage};
+export {Signup};
