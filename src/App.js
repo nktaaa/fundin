@@ -1,9 +1,11 @@
 import './App.css';
-import { Main } from './components/Main';
+import { Main } from './pages/Main';
+import {Company} from './pages/Company'
 function App() {
   return (
    <>
-   <Main/>
+   {/* <Main/> */}
+   <Company/>
    </>
   );
 }
