@@ -1,0 +1,40 @@
+.heading{
+    background-color: #160624;
+     max-height: 32rem;
+    
+}
+.heading h1{
+    font-size: 4rem;
+margin-top: 0;
+color: white;
+padding-left: 30%;
+padding-top: 5%;
+}
+.heading p{
+    color: white;
+padding-left: 30%;
+}
+.navigator{
+    color: white;
+    padding-top: 4rem;
+}
+.navigator span{
+    color: white;
+    margin-left: 4rem;
+}
+.navigator span:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.heading svg{
+    display: block;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content div{
+    max-width: 40%;
+    margin-bottom: 4rem;
+}
+
