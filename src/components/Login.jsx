@@ -3,18 +3,15 @@ import styles from '../components/Login.module.css';
 function Login(){
     return(
         <>
-        <form action="">
-        <div className={`${styles.contain}`}>
-            <div>
-            <label htmlFor={`${styles.email}`}>Email : </label>
-            <input type="email" className={`${styles.email}`} />
-            </div>
-            <div>
-            <label htmlFor={`${styles.pas}`}>Password : </label>
-            <input type="password" className={`${styles.pas}`} />
-            </div>
-            </div>
+        <div className={`${styles.container}`}>
+        <form className={`${styles.formbx}`}>
+            <label  htmlFor='email' className='label'>Email : </label>
+            <input type="email" className={`${styles.email}`}  id='email'/>
+            <label htmlFor='pwd' className='label'>Password : </label>
+            <input type="password" className={`${styles.pwd}`} id='pwd' />
+            <button type='submit' className={`${styles.loginBtn}`}>Login</button>
         </form>
+            </div>
        
        
         </>
