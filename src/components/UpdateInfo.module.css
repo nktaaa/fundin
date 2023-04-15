@@ -1,0 +1,22 @@
+.FormContainer{
+  display: flex;
+  justify-content: center;
+}
+.formbx{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    width: 35rem;
+    background: #42e38f;
+  gap: 0.5rem;
+}
+.formbx label{
+    font-weight: 600;
+}
+.formbx input,textarea,select{
+    width: 25rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.45rem;
+}
